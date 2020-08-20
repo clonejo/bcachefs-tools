@@ -101,7 +101,7 @@ You need to do this before you create a volume.
 Device specific options must come before corresponding devices, e.g.
 .Dl bcachefs format --group=ssd /dev/sda --group=hdd /dev/sdb
 .Bl -tag -width Ds
-.It Fl b , Fl -block Ns = Ns Ar size
+.It Fl -block_size Ns = Ns Ar size
 block size, in bytes (e.g. 4k)
 .It Fl -btree_node Ns = Ns Ar size
 Btree node size, default 256k
